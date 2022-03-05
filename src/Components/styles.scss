@@ -1,0 +1,57 @@
+$badge-color: red !important;
+$font-family: system-ui !important;
+.brand-name {
+  font-weight: 900;
+  font-size: 21px;
+}
+.gift-badge {
+  font-size: 10px !important;
+  left: -3px !important;
+  top: 5px !important;
+  position: relative;
+  font-family: $font-family;
+  background-color: $badge-color;
+}
+.breadcrumb-bar {
+  background-color: #f6f7f9;
+  font-family: $font-family;
+  font-size: 14px;
+  font-weight: 500;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, '>') !important;
+}
+ol {
+  margin: revert !important;
+}
+.view-job-btn {
+  font-family: $font-family;
+  font-size: 14px !important;
+  border: 1px solid #c0c0c0 !important;
+}
+.custom-bc ,.card-footer ,.filter ,.brand-name {
+  display: flex;
+  align-items: center;
+
+}
+.table-header,.form-select , 
+.card-subtitle ,.card-name{
+  font-size: 10px!important;
+  font-family: $font-family;
+}
+.card-name {
+  color:#444e95;
+}
+.card-subtitle{
+ color: #898686;
+}
+
+
+.card-footer {
+  font-size:5px;
+  justify-content: space-between;
+}
+
+.form-select{
+  background-color:transparent!important;
+}

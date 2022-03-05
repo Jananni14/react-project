@@ -1,0 +1,30 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+h1,
+p {
+  font-family: Lato;
+}
+#sidebar-wrapper {
+  min-height: 100vh !important;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  font-family: system-ui !important;
+ 
+}
+.col-l {
+  flex: 0 0 auto;
+  width: 7.5%;
+  background-color: rgba(8, 8, 77, 0.89);
+}
+.col-r {
+  flex: 0 0 auto;
+  width: 92.5%;
+}
+.table-container{
+  background-color:#ebeef347;
+}
